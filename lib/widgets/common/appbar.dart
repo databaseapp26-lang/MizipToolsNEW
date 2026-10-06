@@ -15,13 +15,13 @@ class MizipToolsAppBar extends StatelessWidget implements PreferredSize{
   Widget build(BuildContext context) {
     return AppBar(
       backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-      title: Text("MizipTools"),
+      title: Text("Tools"),
       bottom: const TabBar(
         tabs: [
           Tab(text: "Balance"),
           Tab(text: "Dumps"),
           Tab(text: "Advanced")
-        ] 
+        ]
       ),
     );
   }
